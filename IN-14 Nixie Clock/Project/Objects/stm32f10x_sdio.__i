@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\USER\inc -I..\LIB\STM32F10x_StdPeriph_Driver\inc
+-I "C:\Data\Program\IN-14 Nixie Clock\Project\RTE"
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d "..\LIB\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c"
