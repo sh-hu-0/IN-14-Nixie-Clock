@@ -465,11 +465,11 @@ ARM Macro Assembler    Page 8
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\objects\startup_stm32f10x_md.d -o.\objects\startup_stm32f10x_md.
-o -I"C:\Data\Program\IN-14 Nixie Clock\Project\RTE" -IC:\Keil_v5\ARM\PACK\Keil\
-STM32F1xx_DFP\2.2.0\Device\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="
-__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 515" --predefine="STM32F
-10X_MD SETA 1" --list=.\listings\startup_stm32f10x_md.lst ..\CMSIS\startup_stm3
-2f10x_md.s
+o -I"D:\Program\Nixie Tube\IN-14 Nixie Clock\Project\RTE" -I"D:\My Data\Keil_v5
+\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include" -I"D:\My Data\Keil_v5\ARM\CM
+SIS\Include" --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --pred
+efine="__UVISION_VERSION SETA 518" --predefine="STM32F10X_MD SETA 1" --list=.\l
+istings\startup_stm32f10x_md.lst ..\CMSIS\startup_stm32f10x_md.s
 
 
 
@@ -1176,4 +1176,4 @@ Symbol: __main
       At line 135 in file ..\CMSIS\startup_stm32f10x_md.s
 Comment: __main used once
 2 symbols
-405 symbols in table
+406 symbols in table

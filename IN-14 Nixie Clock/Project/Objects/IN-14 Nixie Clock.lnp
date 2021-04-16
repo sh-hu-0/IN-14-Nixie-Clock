@@ -21,6 +21,7 @@
 ".\objects\timer3.o"
 ".\objects\timer4.o"
 ".\objects\oled.o"
+".\objects\display.o"
 --library_type=microlib --strict --scatter ".\Objects\IN-14 Nixie Clock.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
